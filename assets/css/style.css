@@ -1,4 +1,18 @@
 /* Внешние стили */
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 45;
+}
+
 h2 {
     color: rgb(255, 0, 155);
+    text-align: left;
+    font-size: 35;
+}
+
+p {
+    color: brown;
+    text-align: left;
+    font-size: 25;
 }
