@@ -1,12 +1,23 @@
 /* Внешние стили */
-h1 {
+/* Селектор тега (типа) */
+body {
+    font-family: sans-serif;
+    border: 10px black solid;
+}
+
+header {
+    border: 5px green solid;
+}
+ h1 {
     color: black;
     text-align: center;
     font-size: 45;
+      /* font-family : initial; (Отключить унаследовательность) */
+     /* border: inherit; (Включить унаследовательность)  */
 }
 
 h2 {
-    color: rgb(255, 0, 155);
+    color: rgb(159, 0, 159);
     text-align: left;
     font-size: 35;
 }
@@ -16,3 +27,26 @@ p {
     text-align: left;
     font-size: 25;
 }
+
+/* Cелектор класса */
+.annotation-an {
+    color: orange;
+}
+
+/* Селектор идентификатора */
+#ident {
+    color: blue;
+}
+
+/* annotation-an : cebab-case
+AnnotationAn : CamelCase
+               loverCamelCase 
+               UpperCamelCase (PascalCase)
+annotation_an : snake_case */
+ 
+/* Специфичность:
+1) Селектор тега (типа) - 1
+2) Селектор класса - 10 
+3) Селектор идентификатора - 100
+4) Селектор inline - 1000*/
+
